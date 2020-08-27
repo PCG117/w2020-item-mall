@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	height: 80px;
+	background-color: white;
+
+}
+.top-item{
+	float: left;
+	margin-right: 10px;
+	width: 100%;	
+	font-weight: 15px;
+	font-size: 30px;
+	line-height: 80px;
+}
+.logo{
+	color:#52c41a;
+	margin-left: 137px;
+}
+.middle{
+	width: 100%;
+	background-color: #bdbdbd;
+	height: 690px;
+	position: relative;
+}
+.register{
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -200px;
+	width: 360px;
+	height: 330px;
+	border:1px solid black;
+	background-color: #fff;
+	padding: 0px 40px;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.fourth-long{
+	height: 30px;
+	width: 360px;
+	margin-bottom: 10px;
+	float: left;
+}
+.yanzheng:after{
+	content: ""
+	clear:both;
+	display: block;
+	height: 0px;
+	visibility: hidden;
+}
+.yanzheng{
+	*zoom:1;
+}
+.btn{
+	height: 30px;
+	margin-bottom: 10px;
+	float: left;
+	border: 0;
+	line-height: 30px;
+}
+
+.yanzhengma{
+	height: 30px;
+	margin-bottom: 10px;
+	float: left;
+	border-right:0px;
+}
+/*.yanzheng{
+	height: 30px;
+	width: 360px;
+}*/
+input{
+	display: block;
+}
+.log-in{
+	float: right;
+}

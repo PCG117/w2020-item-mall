@@ -1,0 +1,124 @@
+/* 顶部导航
+---------------------------------------------------------------- */
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	height: 30px;
+	line-height: 30px;
+	background-color: #f3f3f3;
+}
+
+.user-menu{
+	float: left;
+/*	line-height: 30px;*/
+/*	border: 1px solid black;*/
+}
+.right-menu{
+	float: right;
+/*	line-height: 30px;*/
+}
+.top .right-menu .user-item{
+	float: left;
+	margin-right:10px;
+	font-size: 12px;
+	list-style:none;
+}
+
+.icon-Cart{
+	font-size: 12px;
+}
+/* 顶部菜单
+---------------------------------------------------------------- */
+.header{
+	height: 100px;
+	background-color: white;
+	border-bottom: 1px solid #52c41a;
+}
+.nav-left{
+	float: left;
+	margin-right: 10px;
+	width: 208px;	
+	font-weight: 15px;
+	font-size: 30px;
+	line-height: 100px;
+}
+.logo{
+	color:#52c41a;
+}
+
+.nav-right{
+	float: left;
+	font-size: 16px;
+	margin-top: 18px;
+}
+
+input{
+	width: 410px;
+	height: 42px;
+	border:2px solid #52c41a;
+	border-right: none;
+	float: left;
+	padding-left: 10px;
+}
+input:focus{
+	outline-color: #52c41a;
+}
+
+button{
+	height: 46px;
+	width: 102px;
+	color: white;
+	background: #52c41a;
+	border:0;
+	font-size: 18px;
+	cursor: pointer;
+	float: left;
+	font-weight: 800;
+}
+button:hover{
+	opacity: 0.6;
+}
+
+.select .menu-item{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 9px;
+	margin-top: 12px;
+	font-size: 15px;
+	list-style: none;
+}
+/*商品详情界面-
+--------------------------------------------------------------*/
+.title{
+	margin-top:20px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	font-size: 13px;
+	height: 13px;
+	line-height: 13px;
+}
+.goods-photo{
+	float: left;
+	width:430px;
+	height:550px;
+	border: 1px solid black;
+}
+.title-right{
+	float: right;
+	width: 630px;
+	height: 550px;
+	/*position: relative;*/
+	border: 1px solid black;
+}
+.goods-right{
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.goods-right .goods-aspect{
+	font-size: 15px;
+	list-style: none;
+}

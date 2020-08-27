@@ -1,0 +1,39 @@
+.col-1{
+    width: 208px;
+}
+.col-gap{
+    margin-right: 10px;
+}
+.col-4{
+    width: 862px;
+}
+.pack{
+	width: 1080px;
+	margin-right: auto;
+	margin-left: auto;
+/*	border: 1px solid black;*/
+}
+body{
+    font-size: 12px;
+    background-color: #eee;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    color: #1890ff;
+}
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+    height: 0px;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+.hot-photo .icon-cart{
+    font-size: 40px;
+}
