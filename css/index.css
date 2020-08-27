@@ -8,13 +8,9 @@
 
 .user-menu{
 	float: left;
-/*	line-height: 30px;*/
-/*	border: 1px solid black;*/
 }
 .right-menu{
 	float: right;
-/*	line-height: 30px;*/
-
 }
 .top .pack li{
 	float: left;
@@ -38,7 +34,6 @@
 	font-weight: 15px;
 	font-size: 30px;
 	line-height: 100px;
-/*		border: 1px solid black;*/
 }
 .logo{
 	color:#52c41a;
@@ -63,8 +58,7 @@ input:focus{
 }
 
 button{
-/*	position: relative;
-*/	height: 46px;
+	height: 46px;
 	width: 102px;
 	color: white;
 	background: #52c41a;
@@ -92,7 +86,6 @@ ul .select{
 ---------------------------------------------------------------- */
 .focus{
 	height: 440px;
-	/*background-color: pink;*/
 	margin-top: 30px;
 	margin-bottom:40px;
 }
@@ -105,7 +98,6 @@ ul .select{
 }
 .menu-left{
 	text-align: left;
-	/*border: 1px solid black;*/
 	height: 439px;
 	position: relative;
 	top:20px;	
@@ -113,7 +105,6 @@ ul .select{
 	
 }
 .menu-left li{
-/*margin-top: 33px;*/
 	line-height: 40px;
 	padding-left: 10px;
 
@@ -127,7 +118,6 @@ ul .select{
 		height: 440px;
 		float: left;
 		position: relative;
-		/*border: 1px solid black;*/
 	}
 	.Rotation-chart img{
 		width: 100%;
@@ -237,9 +227,7 @@ h1{
 .item-name{
 	overflow: hidden;
 	text-overflow: ellipsis; 
-	white-space: nowrap;
-/*	margin-left:10px;*/
-	
+	white-space: nowrap;	
 }
 .price-num{
 	margin-top: 20px;
@@ -305,24 +293,6 @@ h1{
     margin-bottom: 10px;
 
 }
-/*.footer .promise .icon{
-    display: inline-block;
-    background-repeat: no-repeat;
-    height: 40px;
-    line-height: 40px;
-    padding-left: 50px;
-}
-.footer .promise .icon1{
-    background-position: 0 0;
-  /*  margin-right: 220px;
-}
-.footer .promise .icon2{
-    background-position: 0 -45px;
-    margin-right: 220px;
-}
-.footer .promise .icon3{
-    background-position: 0 -80px;
-}*/
 .footer .links{
     text-align: center;
     margin-bottom: 10px;
@@ -335,13 +305,3 @@ h1{
     text-align: center;
     color: #888;
 }
-/*.promise .left{
-	float: left;
-}
-.promise .left{
-	float: left;
-}
-.promise .right{
-	float: right;
-}
-*/

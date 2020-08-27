@@ -12,12 +12,9 @@
 
 .user-menu{
 	float: left;
-/*	line-height: 30px;*/
-/*	border: 1px solid black;*/
 }
 .right-menu{
 	float: right;
-/*	line-height: 30px;*/
 }
 .top .right-menu .user-item{
 	float: left;
@@ -109,7 +106,6 @@ button:hover{
 	float: right;
 	width: 630px;
 	height: 550px;
-	/*position: relative;*/
 	border: 1px solid black;
 }
 .goods-right{
